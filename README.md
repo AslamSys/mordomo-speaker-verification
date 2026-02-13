@@ -1,5 +1,28 @@
 # 🔐 Speaker Verification
 
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
+
 **Container:** `speaker-verification`  
 **Ecossistema:** Mordomo  
 **Posição no Fluxo:** Terceiro - autenticação de usuário (GATE de autorização)
@@ -32,6 +55,29 @@ Valida se o falante é um usuário autorizado (você ou sua esposa) antes de lib
 
 ```yaml
 # Estrutura de diretórios
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 ./data/embeddings/  (host - persistência local)
   └─ /data/embeddings/  (container - bind mount RW)
 
@@ -154,6 +200,29 @@ conversation.ended
 ### Input
 ```python
 # NATS Subscription
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 subject: "wake_word.detected"
 payload: {
   "audio_snippet": "<base64 1s audio>",
@@ -164,6 +233,29 @@ payload: {
 ### Output
 ```python
 # NATS Event - Authorized (voz conhecida)
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 subject: "speaker.verified"
 payload: {
   "user_id": "user_1",  # Identificação do usuário
@@ -171,11 +263,126 @@ payload: {
   "timestamp": 1732723200.123
 }
 # Conversation Manager usa user_id para:
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 #  - Buscar nível de permissão (level)
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 #  - Validar se pode executar ação solicitada
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 #  - Manter contexto individualizado
 
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
+
 # NATS Event - Unauthorized (voz desconhecida)
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 subject: "speaker.rejected"
 payload: {
   "reason": "unknown_voice",
@@ -183,6 +390,29 @@ payload: {
   "timestamp": 1732723200.123
 }
 # Pipeline interrompido - nenhuma ação executada
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 ```
 
 ---
@@ -243,6 +473,29 @@ speaker_embedding_updates_total{user_id}
 ### Enrollment (Cadastro inicial)
 ```bash
 # Script para cadastrar vozes
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 python scripts/enroll_speaker.py \
   --user-id user_1 \
   --name "Você" \
@@ -250,8 +503,77 @@ python scripts/enroll_speaker.py \
   --embeddings-path /data/embeddings
   
 # Gera embedding médio de múltiplas amostras
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 # Salva em /data/embeddings/user_1.npy (volume compartilhado)
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 # Speaker ID/Diarization lê automaticamente
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 ```
 
 **Processo:**
@@ -286,6 +608,29 @@ COPY src/ ./src/
 COPY scripts/ ./scripts/
 
 # Volume para embeddings compartilhados
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+
+### Containers Relacionados (aslam)
+- [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
+- [mordomo-audio-capture-vad](https://github.com/AslamSys/mordomo-audio-capture-vad)
+- [mordomo-wake-word-detector](https://github.com/AslamSys/mordomo-wake-word-detector)
+- [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
+- [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
+- [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
+- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
+- [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
+- [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
+- [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
+- [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
+- [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
+- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
+- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
+- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
+
+---
 VOLUME /data/embeddings
 
 EXPOSE 8001
