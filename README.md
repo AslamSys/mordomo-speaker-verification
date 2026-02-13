@@ -2,7 +2,7 @@
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -58,7 +58,7 @@ Valida se o falante é um usuário autorizado (você ou sua esposa) antes de lib
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -203,7 +203,7 @@ conversation.ended
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -236,7 +236,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -266,7 +266,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -290,7 +290,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -314,7 +314,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -338,7 +338,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -363,7 +363,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -393,7 +393,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -476,7 +476,7 @@ speaker_embedding_updates_total{user_id}
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -506,7 +506,7 @@ python scripts/enroll_speaker.py \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -530,7 +530,7 @@ python scripts/enroll_speaker.py \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -554,7 +554,7 @@ python scripts/enroll_speaker.py \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -611,7 +611,7 @@ COPY scripts/ ./scripts/
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-speaker-verification**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-speaker-verification**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
