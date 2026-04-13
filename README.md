@@ -677,4 +677,27 @@ networks:
 
 ---
 
+## 🔐 Vault Integration
+
+O `speaker.verified` publicado por este módulo é o **fator biométrico de autorização** consumido pelo `mordomo-vault`.
+
+```yaml
+Publica:
+  speaker.verified:
+    person_id: "renan"      # ID resolvido via mordomo-people
+    confidence: 0.97        # usado pelo vault para checar min_confidence da política
+    timestamp: ...
+
+  speaker.rejected:
+    reason: "unknown_voice"
+```
+
+O `mordomo-orchestrator` mantém `{ person_id, confidence }` na sessão ativa. Quando o orchestrator precisa despachar uma ação sensível (ex: PIX), encaminha esses valores para `mordomo.vault.secret.get`.
+
+**Este módulo não acessa o vault diretamente** — apenas fornece o dado biométrico que o vault vai consumir.
+
+Veja: [mordomo-vault](https://github.com/AslamSys/mordomo-vault)
+
+---
+
 **Versão:** 1.0
