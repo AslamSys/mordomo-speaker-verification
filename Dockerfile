@@ -1,9 +1,8 @@
 FROM python:3.11-slim
 
-# ffmpeg needed by resemblyzer for audio loading
-# gcc + python3-dev needed to compile webrtcvad (C extension required by resemblyzer)
+# libsndfile1 needed by soundfile for audio I/O
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    ffmpeg libsndfile1 gcc python3-dev \
+    libsndfile1 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -17,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 
 # Embeddings volume — persisted on the host
-VOLUME ["/data/embeddings"]
+# Model cache volume — avoids re-downloading ECAPA-TDNN on every restart
+VOLUME ["/data/embeddings", "/app/model"]
 
 CMD ["python", "-m", "src.main"]

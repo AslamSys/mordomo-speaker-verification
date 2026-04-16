@@ -4,10 +4,14 @@ Embedding store — persists voice profiles as .npy files on a bound volume.
 Layout:
   /data/embeddings/
     metadata.json          ← index: speaker_id → { person_id, name, role, enrolled_at }
-    {speaker_id}.npy       ← 256D Resemblyzer embedding (float32)
+    {speaker_id}.npy       ← 192D ECAPA-TDNN embedding (float32, L2-normalised)
 
 The metadata.json is the source of truth for which speaker_ids exist.
 The .npy files are the actual biometric data.
+
+⚠️  Embedding dimension changed from 256D (Resemblyzer) to 192D (ECAPA-TDNN).
+    Any .npy files generated with Resemblyzer are incompatible and must be deleted.
+    All speakers must be re-enrolled after upgrading.
 """
 import json
 import logging

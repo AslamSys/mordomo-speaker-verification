@@ -5,6 +5,11 @@ NATS_URL: str = os.getenv("NATS_URL", "nats://nats:4222")
 # Path to the embeddings volume (bind-mounted from host)
 EMBEDDINGS_PATH: str = os.getenv("EMBEDDINGS_PATH", "/data/embeddings")
 
+# SpeechBrain ECAPA-TDNN model cache directory
+# Model is downloaded from HuggingFace on first startup and cached here.
+# Mount as a volume to avoid re-downloading on every container restart.
+MODEL_SAVEDIR: str = os.getenv("MODEL_SAVEDIR", "/app/model/spkrec-ecapa-voxceleb")
+
 # People service — used to link voice profiles to person records
 SUBJECT_PEOPLE_UPSERT:   str = "mordomo.people.upsert"
 SUBJECT_PEOPLE_RESOLVE:  str = "mordomo.people.resolve"
@@ -25,7 +30,12 @@ SUBJECT_REJECTED:        str = "mordomo.speaker.rejected"
 SUBJECT_ENROLLED:        str = "mordomo.speaker.enrolled"
 
 # Verification
-VERIFICATION_THRESHOLD: float = float(os.getenv("VERIFICATION_THRESHOLD", "0.75"))
+# ECAPA-TDNN cosine similarity scale:
+#   same speaker:      0.30 – 0.80
+#   different speaker: -0.10 – 0.25
+#   ⚠️  Different from Resemblyzer (which used 0.75). Start at 0.25 and tune up
+#       if getting false positives, or down if getting false negatives.
+VERIFICATION_THRESHOLD: float = float(os.getenv("VERIFICATION_THRESHOLD", "0.25"))
 
 # ── Bootstrap / Setup mode ─────────────────────────────────────────────────
 #

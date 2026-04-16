@@ -2,7 +2,7 @@
 mordomo-speaker-verification — entrypoint.
 
 Startup sequence:
-  1. Load VoiceEncoder model (Resemblyzer, PyTorch)
+  1. Load ECAPA-TDNN model (SpeechBrain, PyTorch) — downloads from HuggingFace on first run
   2. Load all stored embeddings into memory
   3. Connect to NATS
   4. Subscribe to verification + enrollment subjects
@@ -56,7 +56,7 @@ async def run() -> None:
         loop.add_signal_handler(sig, lambda s=sig: _handle_signal(s))
 
     # 1. Load ML model + stored embeddings
-    logger.info("Loading VoiceEncoder (Resemblyzer)...")
+    logger.info("Loading ECAPA-TDNN (SpeechBrain/spkrec-ecapa-voxceleb)...")
     load_encoder()
     reload_embeddings()
     logger.info("Speaker verification ready")
