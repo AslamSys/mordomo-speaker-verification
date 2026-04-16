@@ -1,4 +1,4 @@
-# 🔐 Speaker Verification
+﻿# 🔐 Speaker Verification
 
 ## 🔗 Navegação
 
@@ -11,12 +11,10 @@
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 
@@ -64,12 +62,10 @@ Valida se o falante é um usuário autorizado (você ou sua esposa) antes de lib
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 ./data/embeddings/  (host - persistência local)
@@ -206,12 +202,10 @@ conversation.ended
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 subject: "wake_word.detected"
@@ -236,12 +230,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 subject: "speaker.verified"
@@ -263,12 +255,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 #  - Buscar nível de permissão (level)
@@ -284,12 +274,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 #  - Validar se pode executar ação solicitada
@@ -305,12 +293,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 #  - Manter contexto individualizado
@@ -326,12 +312,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 
@@ -348,12 +332,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 subject: "speaker.rejected"
@@ -375,12 +357,10 @@ payload: {
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 ```
@@ -455,12 +435,10 @@ speaker_embedding_updates_total{user_id}
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 python scripts/enroll_speaker.py \
@@ -482,12 +460,10 @@ python scripts/enroll_speaker.py \
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 # Salva em /data/embeddings/user_1.npy (volume compartilhado)
@@ -503,12 +479,10 @@ python scripts/enroll_speaker.py \
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 # Speaker ID/Diarization lê automaticamente
@@ -524,12 +498,10 @@ python scripts/enroll_speaker.py \
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 ```
@@ -578,12 +550,10 @@ COPY scripts/ ./scripts/
 - [mordomo-whisper-asr](https://github.com/AslamSys/mordomo-whisper-asr)
 - [mordomo-speaker-id-diarization](https://github.com/AslamSys/mordomo-speaker-id-diarization)
 - [mordomo-source-separation](https://github.com/AslamSys/mordomo-source-separation)
-- [mordomo-core-gateway](https://github.com/AslamSys/mordomo-core-gateway)
 - [mordomo-orchestrator](https://github.com/AslamSys/mordomo-orchestrator)
 - [mordomo-brain](https://github.com/AslamSys/mordomo-brain)
 - [mordomo-tts-engine](https://github.com/AslamSys/mordomo-tts-engine)
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
-- [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
 
 ---
 VOLUME /data/embeddings
