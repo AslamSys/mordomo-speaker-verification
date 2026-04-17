@@ -1,4 +1,4 @@
-speechbrain==1.0.2
+onnxruntime==1.19.2
 nats-py==2.9.0
 numpy==1.26.4
 soundfile==0.12.1

@@ -5,10 +5,10 @@ NATS_URL: str = os.getenv("NATS_URL", "nats://nats:4222")
 # Path to the embeddings volume (bind-mounted from host)
 EMBEDDINGS_PATH: str = os.getenv("EMBEDDINGS_PATH", "/data/embeddings")
 
-# SpeechBrain ECAPA-TDNN model cache directory
-# Model is downloaded from HuggingFace on first startup and cached here.
-# Mount as a volume to avoid re-downloading on every container restart.
-MODEL_SAVEDIR: str = os.getenv("MODEL_SAVEDIR", "/app/model/spkrec-ecapa-voxceleb")
+# ECAPA-TDNN ONNX model directory
+# Expects ecapa_tdnn.onnx inside this directory.
+# Export from SpeechBrain once; mount as volume.
+MODEL_SAVEDIR: str = os.getenv("MODEL_SAVEDIR", "/app/model")
 
 # People service — used to link voice profiles to person records
 SUBJECT_PEOPLE_UPSERT:   str = "mordomo.people.upsert"

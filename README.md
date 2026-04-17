@@ -38,12 +38,13 @@ Valida se o falante é um usuário autorizado antes de liberar resultados downst
 
 **Linguagem:** Python 3.11
 
-**Modelo:** [SpeechBrain ECAPA-TDNN](https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb)
+**Modelo:** [ECAPA-TDNN](https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb) via ONNX Runtime
 - Arquitetura: ECAPA-TDNN (Emphasized Channel Attention, Propagation and Aggregation)
 - Treinado em: VoxCeleb1 + VoxCeleb2 (~1.2M utterances, 7000+ speakers)
 - Embedding: **192D** (L2-normalizado)
 - EER no VoxCeleb1-O: **~0.87%** (vs ~5-7% do GE2E/Resemblyzer anterior)
-- Backend: PyTorch CPU + torchaudio
+- Backend: ONNX Runtime CPU (exportado do SpeechBrain via multi-stage Docker build)
+- Dockerfile multi-stage: Stage 1 exporta PyTorch→ONNX, Stage 2 roda apenas com onnxruntime (~2GB menor)
 
 **Por que ECAPA-TDNN?**
 É o estado da arte em speaker verification com ampla adoção em produção. O EER de 0.87% representa uma redução de ~6x no erro em relação ao Resemblyzer GE2E. Para um ambiente doméstico com 2 usuários conhecidos, a margem de segurança é muito alta.
@@ -62,8 +63,8 @@ Input:
 
 Model:
   Architecture: ECAPA-TDNN
-  Source: speechbrain/spkrec-ecapa-voxceleb (HuggingFace)
-  Cache: /app/model/spkrec-ecapa-voxceleb (volume)
+  Source: speechbrain/spkrec-ecapa-voxceleb (exportado para ONNX no build)
+  Path: /app/model/ecapa_tdnn.onnx (embutido na imagem)
 
 Verification:
   Threshold: 0.25 (cosine similarity — configurável via VERIFICATION_THRESHOLD)
@@ -193,7 +194,7 @@ O primeiro enrollment não pode exigir um admin pré-existente — bootstrap par
 |---|---|---|
 | `NATS_URL` | `nats://nats:4222` | URL do NATS |
 | `EMBEDDINGS_PATH` | `/data/embeddings` | Volume de embeddings |
-| `MODEL_SAVEDIR` | `/app/model/spkrec-ecapa-voxceleb` | Cache do modelo ECAPA-TDNN |
+| `MODEL_SAVEDIR` | `/app/model` | Diretório do modelo ONNX (ecapa_tdnn.onnx) |
 | `VERIFICATION_THRESHOLD` | `0.25` | Threshold de cosine similarity |
 | `SETUP_MODE` | `false` | Modo bootstrap de enrollment |
 
