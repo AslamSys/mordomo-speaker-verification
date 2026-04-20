@@ -24,7 +24,8 @@ WORKDIR /app
 COPY --from=exporter /model/ecapa_tdnn.onnx /app/model/ecapa_tdnn.onnx
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip uninstall -y speechbrain torchaudio
 
 COPY src/ ./src/
 
