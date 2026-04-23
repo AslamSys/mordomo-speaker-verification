@@ -1,4 +1,4 @@
-# ── Stage 1: Export ECAPA-TDNN to ONNX ──────────────────────────────────
+# ── Stage 1: Export ECAPA-TDNN to ONNX (Trigger Rebuild) ─────────────────
 FROM python:3.11-slim AS exporter
 
 RUN apt-get update && apt-get install -y --no-install-recommends gcc g++ \
